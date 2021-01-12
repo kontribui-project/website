@@ -8,7 +8,12 @@ layout: default
   </header>
 
   <div class="post-content">
-    {{ content }}
+    
+    <div class="project-content">
+    <img class="project-img" src="{{ page.project_img }}" alt="{{ page.title }}">
+      {{ content }}
+    </div>
+
   </div>
 
 </article>

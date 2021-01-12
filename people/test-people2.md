@@ -1,9 +1,10 @@
 ---
-layout: project
-title: Kontribui
-permalink: /projects/kontribui
-project_img: /assets/kontribui.png
-project_page: true
+layout: profile
+title: Teste 2
+profile_img: https://avatars1.githubusercontent.com/u/7429615?s=460&u=46d54206d44b1fe87a6033a24837a283549925ad&v=4
+user: user2
+permalink: /people/user2
+people_page: true
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
