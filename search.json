@@ -19,6 +19,7 @@ search: exclude
    
     {% endfor %}
 
+   {% comment %}
     {% for post in site.posts %}
         {
             "title": "{{ post.title | escape }}",
@@ -29,4 +30,5 @@ search: exclude
         }
     {% unless forloop.last %},{% endunless %}
     {% endfor %}
+    {% endcomment %} 
 ]
