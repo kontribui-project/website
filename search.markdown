@@ -1,0 +1,20 @@
+---
+layout: page
+title: Search
+permalink: /search/
+top_page: true
+---
+
+<input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+<ul id="results-container"></ul>
+<script src="https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.7.1/dest/simple-jekyll-search.min.js"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+  noResultsText: 'No results found.',
+  fuzzy: true
+})
+</script>
+
